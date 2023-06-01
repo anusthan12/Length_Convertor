@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 100%
+}
+
+body {
+    font-family: 'Righteous', cursive;
+    /* background-color: #806367; */
+    /* background: linear-gradient(to right, #10696b, #2b2473); */
+    background: linear-gradient(to right, #ca098f, #ffcb5c);            
+    scroll-behavior: smooth;
+    padding-top: 30px;
+}
+
+    
+
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container > div {
+    margin-top: 30px;
+}
+
+
+.title {
+    color: rgb(214, 212, 212);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+h4 {
+    color: rgb(32, 32, 32);
+    margin-bottom: 5px;
+}
+
+input {
+    padding:  7px;
+    border: ridge 2px gray;
+    width: 80%;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 10px;
+    padding-left: 40px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+
+select {
+    padding: 7px 0;
+    width: fit-content;
+}
+
+button {
+    padding: 7px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#note {
+    margin-top: 50px;
+}
